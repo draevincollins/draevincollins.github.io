@@ -33,7 +33,7 @@ var init = function (window) {
     var loopsCompleted = 0;
     while (loopsCompleted < 100) {
       drawCircle()
-      loopscomleted++;
+      loopsCompleted++;
     }
     ////////////////////////////////////////////////////////////
     ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -51,11 +51,7 @@ var init = function (window) {
         game.checkCirclePosition(circles[i])
       }
       // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-      game.checkCirclePosition(circles[0]);
-      game.checkCirclePosition(circles[1]);
-      game.checkCirclePosition(circles[2]);
-      game.checkCirclePosition(circles[3]);
-      game.checkCirclePosition(circles[4]);
+      
       // TODO 9 : Iterate over the array
     }
 
